@@ -1,0 +1,37 @@
+{
+  "kiss": {
+    "data_path": "/hk_vol/data1/hklee/0_Data/2020_hdf5/C4A1/",
+    "label_path": "/hk_vol/data1/hklee/0_Data/2020_csv_label/Label_30s/all_labeled_30s.csv",
+    "serial_file": "/hk_vol/data1/hklee/BrainAHI/codes/splits/#_internal_kiss_mesa_mros_external_shhs_cpap/test_serials_kiss.txt"
+  },
+  "mesa": {
+    "data_path": "/hk_vol/data1/hklee/0_Data/mesa/C4A1/",
+    "label_path": "/hk_vol/data1/hklee/0_Data/mesa_csv_label/Label_30s/all_labeled_30s.csv",
+    "serial_file": "/hk_vol/data1/hklee/BrainAHI/codes/splits/#_internal_kiss_mesa_mros_external_shhs_cpap/test_serials_mesa.txt"
+  },
+  "mros1": {
+    "data_path": "/hk_vol/data1/hklee/0_Data/mros1/C4A1/",
+    "label_path": "/hk_vol/data1/hklee/0_Data/mros1_csv_label/Label_30s/all_labeled_30s.csv",
+    "serial_file": "/hk_vol/data1/hklee/BrainAHI/codes/splits/#_internal_kiss_mesa_mros_external_shhs_cpap/test_serials_mros1.txt"
+  },
+  "mros2": {
+    "data_path": "/hk_vol/data1/hklee/0_Data/mros2/C4A1/",
+    "label_path": "/hk_vol/data1/hklee/0_Data/mros2_csv_label/Label_30s/all_labeled_30s.csv",
+    "serial_file": "/hk_vol/data1/hklee/BrainAHI/codes/splits/#_internal_kiss_mesa_mros_external_shhs_cpap/test_serials_mros2.txt"
+  },
+  "shhs1": {
+    "data_path": "/hk_vol/data1/hklee/0_Data/shhs1/C4A1/",
+    "label_path": "/hk_vol/data1/hklee/0_Data/shhs1_csv_label/Label_30s/all_labeled_30s.csv",
+    "serial_file": "/hk_vol/data1/hklee/BrainAHI/codes/splits/#_internal_kiss_mesa_mros_external_shhs_cpap/external_serials_shhs1.txt"
+  },
+  "shhs2": {
+    "data_path": "/hk_vol/data1/hklee/0_Data/shhs2/C4A1/",
+    "label_path": "/hk_vol/data1/hklee/0_Data/shhs2_csv_label/Label_30s/all_labeled_30s.csv",
+    "serial_file": "/hk_vol/data1/hklee/BrainAHI/codes/splits/#_internal_kiss_mesa_mros_external_shhs_cpap/external_serials_shhs2.txt"
+  },
+  "cpap": {
+    "data_path": "/hk_vol/data1/hklee/0_Data/cpap/C4A1/",
+    "label_path": "/hk_vol/data1/hklee/0_Data/cpap_csv_label/Label_30s/all_labeled_30s.csv",
+    "serial_file": "/hk_vol/data1/hklee/BrainAHI/codes/splits/#_internal_kiss_mesa_mros_external_shhs_cpap/external_serials_cpap.txt"
+  }
+}

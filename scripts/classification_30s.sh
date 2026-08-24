@@ -1,0 +1,37 @@
+
+python -u run.py \
+    --task_name classification \
+    --is_training 1 \
+    --extract_features 0 \
+    --root_path /home/data_OL1/hklee/BrainAHI/ \
+    --train_centers_json /home/data_OL1/hklee/BrainAHI/codes/configs/train_centers.json \
+    --val_centers_json /home/data_OL1/hklee/BrainAHI/codes/configs/val_centers.json \
+    --test_centers_json /home/data_OL1/hklee/BrainAHI/codes/configs/test_centers.json \
+    --data MULTICENTER \
+    --dataset_name kiss \
+    --model_id 260109_30s_multicenter_C4A1_multitask_128_16_6331157_11975_0.001_wce_revisedlabel_kiss_mesa_mros_internal \
+    --model MultiTask \
+    --num_epochs_per_window 1 \
+    --window_stride 3840 \
+    --seq_len 3840 \
+    --stride 3840 \
+    --ffn_ratio 1 \
+    --patch_size 128 \
+    --patch_stride 16 \
+    --num_blocks 1 1 1 1 \
+    --large_size 63 31 15 7 \
+    --small_size 11 9 7 5 \
+    --dims 64 64 64 64 \
+    --head_dropout 0.0 \
+    --class_dropout 0.0 \
+    --dropout 0.1 \
+    --itr 1 \
+    --learning_rate 0.001 \
+    --batch_size 512 \
+    --train_epochs 100 \
+    --patience 10 \
+    --des Exp \
+    --num_workers 4 \
+    --use_multi_scale True \
+    --use_multi_gpu \
+    --devices 0 | tee "../logs/training_log_260109_30s_multicenter_C4A1_multitask_128_16_6331157_11975_0.001_wce_revisedlabel_kiss_mesa_mros_internal.txt"  \

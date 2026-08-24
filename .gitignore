@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+wandb/
+logs/
+checkpoints/
+results/
+
+*.pt
+*.pth
+*.ckpt
+
+.DS_Store
+.env
