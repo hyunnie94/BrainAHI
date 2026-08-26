@@ -1,0 +1,33 @@
+# Install PyTorch separately with the matching CUDA build first, e.g.:
+#   pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+# then install the rest of this file.
+torch==2.5.1
+
+numpy==1.26.4
+pandas==2.3.1
+scipy==1.16.0
+scikit-learn==1.7.1
+h5py==3.14.0
+
+matplotlib==3.10.0
+seaborn==0.13.2
+
+tqdm==4.67.1
+joblib==1.5.1
+psutil==7.2.2
+prefetch_generator
+wandb==0.19.6
+
+# Used by data_provider/data_loader.py (imported at module load time)
+sktime==0.36.0
+
+# Used by exp/exp_multitask.py and exp/exp_multitask_inter.py (interpretability
+# analysis; not required for the Phase 1 entry point used by run.py)
+shap==0.47.1
+
+# Used by scripts/architecture/visualize_phase1.py and visualize_phase2.py
+# (architecture-diagram rendering only, not required for training/inference)
+torchview==0.2.7
+
+# Used by utils/tools.py's FLOP-profiling helper (only invoked with --test_flop)
+ptflops
