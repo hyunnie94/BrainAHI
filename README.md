@@ -4,7 +4,7 @@
 
 This repository contains the training and inference code for BrainAHI, a two-phase deep-learning framework that estimates a patient-level, EEG-derived apnea-hypopnea index (AHI<sub>brain</sub>) from a single-channel sleep EEG. Phase 1 learns epoch-level sleep-stage and respiratory-event representations from 30-second EEG segments; Phase 2 aggregates these representations into a single patient-level AHI<sub>brain</sub> estimate. The gap between AHI<sub>brain</sub> and the polysomnography-derived ground-truth AHI is summarized by two derived metrics reported in the manuscript, ΔAHI<sub>brain</sub> and AHI<sub>brain,event-free</sub>.
 
-![Model overview](model_overview.png)
+![Model overview](Model_overview.png)
 
 ## Installation
 
